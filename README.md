@@ -24,6 +24,7 @@ If you selected join game and got the desired response (initial information abou
 
 ## Overview routes
 The get **profile** route fetches information from the database about the user, such as their ID, username, games played, games won, and win percentage.
+
 The get **games** route fetches information about all the games someone has played, such as player usernames, starting date, status (is it finished or not), result (did X or Y win, i.e., the player that played first or second), and the winner's username.
 Additionally, you can filter games by time range, game status, game result, and winner username.
 
